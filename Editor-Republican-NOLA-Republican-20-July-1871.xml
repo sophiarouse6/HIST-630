@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>German Politics in Reconstruction New Orleans</title> <author> S.L. Brown and Co.</author>
+            <respStmt> <resp> Editor </resp>  <name> Sophia Rouse </name></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>"New Orleans Republican"</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+          
+            <head> Editor Republican:</head>
+           <p> As a subscriber and constant reader of your valuable paper from the first number, I ask you to correct the statement in yesterday's issue announcing the reorganization of the Fourth District Central German Republican Club and my impeachment as its president, which never took place. The secretary having called a special meeting, without my consent and knowledge, to take place last Sunday, I did not deem it proper to attend; and to impeach any man without giving him a clique to defend himself was never heard of before. All the other officers of the club were there, and a committee was appointed to investigate the purported charges agaiust me, after which the club adjourned regularly to some other day 
+               <persName type="editor">  F. SPRANLEY </persName> </p>
+      </body>
+  </text>
+</TEI>

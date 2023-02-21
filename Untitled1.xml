@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="main">excerpt from LIFE OF SAMUEL RICHARDSON, WITH REMARKS ON HIS
+               WRITINGS. </titlePart>
+         </docTitle>
+         <docAuthor>Anna Letitia Barbauld </docAuthor> 
+      </front>
+      <body>
+         <p>   The author of Clarissa was always fond of female society. He lived in a kind of flower-garden of ladies: they were his inspirers, his critics, his applauders. Connections of business apart, they were his chief correspondents. He had generally a number of young ladies at his house, whom he used to engage in conversation on some subject of sentiment, and provoke, by artful opposition, to display the treasures of intellect they possessed. Miss Mulso, afterwards Mrs. Chapone; Miss Highmore, now Mrs. Duncombe; Miss Talbot, niece to Secker, and author of some much esteemed devotional pieces; Miss Prescott, afterwards Mrs. Mulso; Miss Fieldings; and Miss Colliers, resided occasionally with him. He was accustomed to give the young ladies he esteemed the endearing appellation of his daughters. He used to write in a little summer-house, or grotto<!--*[2]-->, as it was called, within his garden, before the family were up; and, when they met at breakfast, he communicated the progress of his story, which, by that means, had every day a fresh and lively interest. Then began the criticisms, the pleadings, for Harriet Byron or Clementina; every turn and every incident was eagerly canvassed, and the author enjoyed the benefit of knowing before-hand how his situations would strike. Their own little partialities and entanglements, too, were developed, and became the subject of grave advice, or lively raillery. Mrs. Duncombe thus mentions the agreeable scene, in a letter to Mrs. Mulso. I shall often, in idea, enjoy again the hours that we have so agreeably spent in the delightful retirement of North End
+            <!--how to handle a letter?-->
+            For while this pleasing subject I pursue, 
+            The grot, the garden, rush upon my view; 
+            There, in blest union, round the friendly gate,  
+            Instruction, Peace, and chearful Freedom wait;  
+            And there, a choir of list'ning nymphs appears  
+            Oppress'd with wonder, or dissolved in tears;  
+            But on her tender fears when Harriet dwells,  
+            And love's soft symptoms innocently tells, 
+            They all, with conscious smiles, those symptoms view,  
+            And by those conscious smiles confess them true. </p>
+      </body>
+   </text>
+</TEI>

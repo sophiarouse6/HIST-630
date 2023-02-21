@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>German Politics in Reconstruction New Orleans</title> <author>F.A. Lumsden and G.W. Kendall</author>
+            <respStmt> <resp> Editor </resp>  <name> Sophia Rouse </name></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p> F.A. Lumsden and G.W. Kendall. "The German Society of New Orleans," Daily-Picayune, 11 January 1871, p. 1,  https://www.newspapers.com/clip/113195315/the-german-society-of-new-orleans/</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+            <head>"The German Society of New Orleans" </head> 
+            <p> We have already mentioned that the bill which was introduced at the last session of the Legislature, by Hon. L. A. Wilts, entitled" an act to aid the <name type="organziation"> German Society of New Orleans </name>to establish a house of reception for immigrants under the Veaspices of that society," has become a law by the signature of <persName type="politican"> Gov. Warmoth </persName>. The bill appropriates the sum of $20,000 to the <name type="organziation"> German Society </name>, in consideration of which this organization is to erect an immigrant depot at a cost of not less than $30,000. This and other provisions set forth in the bill are to be complied with before the State aid of $20,000 tan be claimed.</p>
+            <p> We learn that steps have already been taken by the <name type="organziation"> German Sooiety </name> looking toward the realization of the project facilitated by the opportune State aid and also tending toward inducing the Legislature to still farther promote the cause of immigration by placing the <name type="organziation"> German Society </name> financially in a condition which would extend the sphere of its usefulness. </p>
+            <p> At a meeting of the <placeName type="directors">Board of Directors of the German Society </placeName>, a few days since, it was resolved that a committee com posed of the President, Vice President and secretary of the society be appointed, whose duty it shall be to select a suitable site for the proposed immigrant depot. Another resolution was adopted directing the President of the society to appoint a committee of three, whose duty it shall be to induce the Legislature to authorize the division of the present head tax upon immigrants arriving at our port equally between the <name type="organziation">German Society </name> and the <name type="organziation">Charity Hospital </name> </p>
+            <p> Should the legislature acquiesce in this proposition, there appears to be no doubt that the pecuniary aid thus extended would be productive of good, by enabling tnegierman oociety, wniou, as our readers know, is an entirely benevo lent organization, to more efficiently pro mote immigration to our State. It would in course of time furthermore do away with that expensive and useless institution, the "Bureau of Emigration," which dot draws the money derived from the head tax on immigrants, with ont giving any equivalent for it. The German Society of New Orleans "has, ever since its organization, in 1847, faithfully labored in behalf of indigent immigrants, by graciously procuring employment for them and otherwise as slating them, and, in view of its past services, is surely entitled to some consideration. </p>
+      </body>
+  </text>
+</TEI>
