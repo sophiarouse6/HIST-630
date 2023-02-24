@@ -10,10 +10,11 @@
             <respStmt> <resp> Editor </resp>  <name> Sophia Rouse </name></respStmt>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+             <p>  Created for Digital Humanities HIST 630. This digital project examines the German Political Reform movement and German political activity in New Orleans during the 1870s. While most of the articles focus directly on the German Political Reform movement, articles devoted to the German Republican Club are also included. Since the project specifically centers on German-New Orleanians’ activeness in Reconstruction politics, ads and other components of the newspapers are not included. As more newspapers are added, editorials and news will be prioritized over advertisements. </p>
+                 <p> This project currently incorporates articles from the two most prominent newspapers in Reconstruction New Orleans, the Daily-Picayune and the New Orleans Republican. German-language newspapers will be added as the project continues to grow. </p>
          </publicationStmt>
          <sourceDesc>
-            <p>"New Orleans Republican"</p>
+             <p> S.L. Brown and Co. "Editor Republican:," New Orleans Republican, 20 July 1871, p. 5, https://www.newspapers.com/clip/114398450/editor-republican/</p>
          </sourceDesc>
       </fileDesc>
   </teiHeader>
@@ -21,7 +22,7 @@
       <body>
           
             <head> Editor Republican:</head>
-           <p> As a subscriber and constant reader of your valuable paper from the first number, I ask you to correct the statement in yesterday's issue announcing the reorganization of the Fourth District Central German Republican Club and my impeachment as its president, which never took place. The secretary having called a special meeting, without my consent and knowledge, to take place last Sunday, I did not deem it proper to attend; and to impeach any man without giving him a clique to defend himself was never heard of before. All the other officers of the club were there, and a committee was appointed to investigate the purported charges agaiust me, after which the club adjourned regularly to some other day 
+          <p> As a subscriber and constant reader of your valuable paper from the first number, I ask you to correct the statement in yesterday's issue announcing the reorganization of the <placeName type="organization"> Fourth District</placeName> <name type="organization">Central German Republican Club</name> and my impeachment as its president, which never took place. The secretary having called a special meeting, without my consent and knowledge, to take place <date>last Sunday</date>, I did not deem it proper to attend; and to impeach any man without giving him a clique to defend himself was never heard of before. All the other officers of the <placeName type="organization"> club </placeName> were there, and a committee was appointed to investigate the purported charges agaiust me, after which the club adjourned regularly to some other day 
                <persName type="editor">  F. SPRANLEY </persName> </p>
       </body>
   </text>
