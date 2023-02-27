@@ -1,0 +1,16 @@
+xquery version "3.1";
+
+declare context item :=document {
+<book> 
+    <title> "Emigrant Nation:The Making of Italy Abroad"</title>
+    <author>Mark I. Choate</author>
+    <date year="2008"></date>
+    <publisher> 
+    <city>Cambridge: </city>
+    <press>Harvard University Press</press>
+    </publisher>
+    <identifer type="ISBN-10"> </identifer>
+    <identifer type="ISBN-13">978-0-674-02784-8</identifer>
+ </book>
+ };
+ fn:concat(/book/title,"  ", /book/author, " ",/book/city,"(",  /book/publisher, ", ", /book/date, "2008).",/)

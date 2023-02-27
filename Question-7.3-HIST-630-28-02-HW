@@ -1,0 +1,16 @@
+xquery version "3.1";
+
+declare context item :=document {
+<book> 
+    <title> "Italy: From Revolution to Republic, 1700 to the Present"</title>
+    <author>Spencer M. Di Scala</author>
+    <date year="2009"></date>
+    <publisher> 
+    <city>Boulder: </city>
+    <press>Westview Press</press>
+    </publisher>
+    <identifer type="ISBN-10"> </identifer>
+    <identifer type="ISBN-13">978-0-8133--4413-3</identifer>
+ </book>
+ };
+ fn:concat(/book/title,".", /book/author, ",",/book/city,"(",  /book/publisher, ", ", /book/date, "2009).",/)

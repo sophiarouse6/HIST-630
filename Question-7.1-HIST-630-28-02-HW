@@ -1,0 +1,18 @@
+xquery version "3.1";
+
+declare context item :=document {
+<book> 
+    <title> "Creole Italian: Sicilian Immigrants and the Shaping of New Orleans Food Culture"</title>
+    <author>Justin A. Nystrom</author>
+    <date year="2018"></date>
+    <publisher> 
+    <city>Athens: </city>
+    <press>University of Georgia Press</press>
+    </publisher>
+    <identifer type="ISBN-10"> 2019047626 </identifer>
+    <identifer type="ISBN-13">978-0-8071-7172-1</identifer>
+ </book>
+ };
+ fn:concat(/book/title,".", /book/author, ",",/book/city,"(",  /book/publisher, ", ", /book/date, "2018).",/)
+ 
+ 
