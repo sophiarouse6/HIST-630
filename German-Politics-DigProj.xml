@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>German Politics in Reconstruction New Orleans</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+   <standOff>
+      <listPerson>
+         <person xml:id="person001"> 
+            <persName>Charles Potthoff, President</persName> 
+         </person>
+       <person xml:id="person002">
+         <persName>Charles F. Buck, Vice President, First District</persName>
+       </person>
+         <person>
+            <persName xml:id="person003"> George Merz</persName>
+         </person>
+         <person>
+           <persName xml:id="person004"> F. Kuhnholz</persName>
+         </person>
+         <person>
+            <persName xml:id="person005"> George Geir</persName>
+         </person>
+         <person>
+            <persName xml:id="person006"> Dr. Wentz</persName>
+         </person>
+         <person>
+            <persName xml:id="person007"> Jacob Hassinger</persName>
+         </person>
+         <person>
+            <persName xml:id="person008">George Forster</persName>
+         </person>
+         <person>
+            <persName xml:id="personal009"> R. Hummel</persName>
+         </person>
+         <person>
+            <persName xml:id="person010"> M.F. Sibilsky</persName>
+         </person>
+         <person> 
+         <persName xml:id="person011">Conrad Streeder</persName>
+         </person>
+         <person>
+            <persName xml:id="person012">C. Bambach</persName>
+         </person>
+         <person>
+            <persName xml:id="person013">J.A. Schaick</persName>
+         </person>  
+         <person>
+            <persName xml:id="person014">William Frommeyer</persName>
+         </person>
+         <person>
+            <persName xml:id="person015">William Vollott</persName>
+         </person>
+         <person>
+            <persName xml:id="person016">Charles May</persName>
+         </person>
+         <person>
+            <persName xml:id="person017">John Ueber</persName>
+         </person>
+         <person>
+            <persName xml:id="person018">Otto Briede</persName>
+         </person>
+         <person>
+            <persName xml:id="person019">Julius Reusch</persName>
+         </person>
+         <person>
+            <persName xml:id="person020">Benjamin Armbruster</persName>
+         </person>
+         <person>
+            <persName xml:id="person021"> L.R. Jacoby</persName>
+         </person>
+         <person>
+            <persName xml:id="person022"> Charles Nangeeser</persName>
+         </person>
+    <person>
+       <persName xml:id="person023"> Charles Zeigler</persName>
+    </person> <!-- Address of the German Political Reform Association -->
+         <person>
+            <persName xml:id="person024">F. Spranley</persName> <!-- Editor Republican -->
+         </person>
+         <person> 
+            <persName xml:id="person025"> Mr.Packard</persName>
+         </person>
+         <person>
+            <persName xml:id="person026">E. Boedicke </persName>
+         </person>
+         <!-- new article  -->
+         <person>
+            <persName xml:id="person027"> Mr. Sarre</persName>
+         </person>
+         <person>
+            <persName xml:id="person028"> Mr. Pabst</persName>
+         </person>
+         <!-- new article -->
+      </listPerson>
+      <listPlace>
+         <place xml:id="place001">
+            
+         </place>
+         <!-- etc.-->
+      </listPlace>
+      <listOrg>
+         <org xml:id="org001">
+            
+         </org>
+         <!-- etc.-->
+      </listOrg>
+   </standOff>
+</TEI>
