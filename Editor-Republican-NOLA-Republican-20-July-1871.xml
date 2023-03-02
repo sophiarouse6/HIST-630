@@ -22,8 +22,8 @@
       <body>
           
             <head> Editor Republican:</head>
-          <p> As a subscriber and constant reader of your valuable paper from the first number, I ask you to correct the statement in yesterday's issue announcing the reorganization of the <placeName type="organization"> Fourth District</placeName> <name type="organization">Central German Republican Club</name> and my impeachment as its president, which never took place. The secretary having called a special meeting, without my consent and knowledge, to take place <date>last Sunday</date>, I did not deem it proper to attend; and to impeach any man without giving him a clique to defend himself was never heard of before. All the other officers of the <placeName type="organization"> club </placeName> were there, and a committee was appointed to investigate the purported charges agaiust me, after which the club adjourned regularly to some other day 
-               <persName type="editor">  F. SPRANLEY </persName> </p>
+          <p> As a subscriber and constant reader of your valuable paper from the first number, I ask you to correct the statement in yesterday's issue announcing the reorganization of the <placeName ref="place003"> Fourth District</placeName> <name ref="org005">Central German Republican Club</name> and my impeachment as its president, which never took place. The secretary having called a special meeting, without my consent and knowledge, to take place <date>last Sunday</date>, I did not deem it proper to attend; and to impeach any man without giving him a clique to defend himself was never heard of before. All the other officers of the <placeName ref="org005"> club </placeName> were there, and a committee was appointed to investigate the purported charges against me, after which the club adjourned regularly to some other day 
+              <persName xml:id="person024">  F. SPRANLEY </persName> </p>
       </body>
   </text>
 </TEI>

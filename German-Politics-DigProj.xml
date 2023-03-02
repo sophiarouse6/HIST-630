@@ -19,101 +19,227 @@
    <standOff>
       <listPerson>
          <person xml:id="person001"> 
-            <persName>Charles Potthoff, President</persName> 
+            <persName>Charles Potthoff, President</persName> <residence>New Orleans</residence>
          </person>
        <person xml:id="person002">
-         <persName>Charles F. Buck, Vice President, First District</persName>
+          <persName>Charles F. Buck</persName><residence>New Orleans</residence>
        </person>
-         <person>
-            <persName xml:id="person003"> George Merz</persName>
+         <person xml:id="person003">
+            <persName> George Merz</persName><residence>New Orleans</residence>
          </person>
-         <person>
-           <persName xml:id="person004"> F. Kuhnholz</persName>
+         <person xml:id="person004">
+            <persName> F. Kuhnholz</persName><residence>New Orleans</residence>
          </person>
-         <person>
-            <persName xml:id="person005"> George Geir</persName>
+         <person xml:id="person005">
+            <persName> George Geir</persName><residence>New Orleans</residence>
          </person>
-         <person>
-            <persName xml:id="person006"> Dr. Wentz</persName>
+         <person xml:id="person006">
+            <persName> Dr. Wentz</persName><residence>New Orleans</residence>
          </person>
-         <person>
-            <persName xml:id="person007"> Jacob Hassinger</persName>
+         <person xml:id="person007">
+            <persName> Jacob Hassinger</persName><residence>New Orleans</residence>
          </person>
-         <person>
-            <persName xml:id="person008">George Forster</persName>
+         <person xml:id="person008">
+            <persName>George Forster</persName><residence>New Orleans</residence>
          </person>
-         <person>
-            <persName xml:id="personal009"> R. Hummel</persName>
+         <person xml:id="personal009">
+            <persName> R. Hummel</persName><residence>New Orleans</residence>
          </person>
-         <person>
-            <persName xml:id="person010"> M.F. Sibilsky</persName>
+         <person xml:id="person010">
+            <persName> M.F. Sibilsky</persName><residence>New Orleans</residence>
          </person>
-         <person> 
-         <persName xml:id="person011">Conrad Streeder</persName>
+         <person xml:id="person011"> 
+            <persName>Conrad Streeder</persName><residence>New Orleans</residence>
          </person>
-         <person>
-            <persName xml:id="person012">C. Bambach</persName>
+         <person xml:id="person012">
+            <persName>C. Bambach</persName><residence>New Orleans</residence>
          </person>
-         <person>
-            <persName xml:id="person013">J.A. Schaick</persName>
+         <person xml:id="person013">
+            <persName>J.A. Schaick</persName><residence>New Orleans</residence>
          </person>  
-         <person>
-            <persName xml:id="person014">William Frommeyer</persName>
+         <person xml:id="person014">
+            <persName>William Frommeyer</persName><residence>New Orleans</residence>
          </person>
-         <person>
-            <persName xml:id="person015">William Vollott</persName>
+         <person xml:id="person015">
+            <persName>William Vollott</persName><residence>New Orleans</residence>
          </person>
-         <person>
-            <persName xml:id="person016">Charles May</persName>
+         <person xml:id="person016">
+            <persName>Charles May</persName><residence>New Orleans</residence>
          </person>
-         <person>
-            <persName xml:id="person017">John Ueber</persName>
+         <person xml:id="person017">
+            <persName>John Ueber</persName><residence>New Orleans</residence>
          </person>
-         <person>
-            <persName xml:id="person018">Otto Briede</persName>
+         <person xml:id="person018">
+            <persName>Otto Briede</persName><residence>New Orleans</residence>
          </person>
-         <person>
-            <persName xml:id="person019">Julius Reusch</persName>
+         <person xml:id="person019">
+            <persName>Julius Reusch</persName><residence>New Orleans</residence>
          </person>
-         <person>
-            <persName xml:id="person020">Benjamin Armbruster</persName>
+         <person xml:id="person020">
+            <persName>Benjamin Armbruster</persName><residence>New Orleans</residence>
          </person>
-         <person>
-            <persName xml:id="person021"> L.R. Jacoby</persName>
+         <person xml:id="person021">
+            <persName> L.R. Jacoby</persName><residence>New Orleans</residence>
          </person>
-         <person>
-            <persName xml:id="person022"> Charles Nangeeser</persName>
+         <person xml:id="person022">
+            <persName> Charles Nangeeser</persName><residence>New Orleans</residence>
          </person>
-    <person>
-       <persName xml:id="person023"> Charles Zeigler</persName>
-    </person> <!-- Address of the German Political Reform Association -->
-         <person>
-            <persName xml:id="person024">F. Spranley</persName> <!-- Editor Republican -->
+         <person xml:id="person023">
+            <persName> Charles Zeigler</persName><residence>New Orleans</residence>
+    </person> 
+         <person xml:id="person024">
+            <persName>F. Spranley</persName> <residence>New Orleans</residence>
          </person>
-         <person> 
-            <persName xml:id="person025"> Mr.Packard</persName>
+         <person xml:id="person025"> 
+            <persName> Mr.Packard</persName><residence>New Orleans</residence>
          </person>
-         <person>
-            <persName xml:id="person026">E. Boedicke </persName>
+         <person xml:id="person026">
+            <persName>E. Boedicke </persName><residence>New Orleans</residence>
          </person>
-         <!-- new article  -->
-         <person>
-            <persName xml:id="person027"> Mr. Sarre</persName>
+         <person xml:id="person027">
+            <persName> Mr. Sarre</persName><residence>New Orleans</residence>
          </person>
-         <person>
-            <persName xml:id="person028"> Mr. Pabst</persName>
+         <person xml:id="person028">
+            <persName> Mr. Pabst</persName><residence>New Orleans</residence>
          </person>
-         <!-- new article -->
+         <person xml:id="person029">
+            <persName>E. Stockmeyer Jr</persName><residence>New Orleans</residence>
+         </person>
+    <person xml:id="person030">
+       <persName>E. S. Wurzburger</persName><residence>New Orleans</residence>
+    </person>
+         <person xml:id="person031">
+            <persName>F. Oberheuser</persName><residence>New Orleans</residence>
+         </person>
+         <person xml:id="person032">
+            <persName>Mr. Louis Schwaiz</persName><residence>New Orleans</residence>
+         </person>
+         <person xml:id="person033">
+            <persName>General Nicholls</persName><residence>Baton Rouge</residence>
+         </person>
+         <person xml:id="person034">
+            <persName>Mr. de la Bue</persName><residence>New Orleans</residence>
+         </person>
+         <person xml:id="person035">
+            <persName>F. Bickert</persName><residence>New Orleans</residence>
+         </person>
+         <person xml:id="person036">
+            <persName>Charles Bendiz</persName><residence>New Orleans</residence>
+         </person>
+         <person xml:id="person037">
+            <persName>Wm. B Schmidt</persName><residence>New Orleans</residence>
+         </person>
+         <person xml:id="person038">
+            <persName> F. Froh</persName><residence>New Orleans</residence>
+         </person>
+         <person xml:id="person039">
+            <persName>A. Bader</persName><residence>New Orleans</residence>
+         </person>
+         <person xml:id="person040">
+            <persName>Dr. B. Maas</persName><residence>New Orleans</residence>
+         </person>
+         <person xml:id="person041">
+            <persName>J. Aschalck</persName><residence>New Orleans</residence>
+         </person>
+         <person xml:id="person042">
+            <persName>H. Schmidt</persName><residence>New Orleans</residence>
+         </person>
+         <person xml:id="person043">
+            <persName>A Bohne</persName><residence>New Orleans</residence>
+         </person>
+         <person xml:id="person044">
+            <persName>D. Michel</persName><residence>New Orleans</residence>
+         </person>
+         <person xml:id="person045">
+            <persName>G. Zalitz</persName><residence>New Orleans</residence>
+         </person>
+         <person xml:id="person046">
+            <persName>Bickert, Jr</persName><residence>New Orleans</residence>
+         </person>
+         <person xml:id="person047">
+            <persName>Louis Stein</persName><residence>New Orleans</residence>
+         </person>
+         <person xml:id="person048">
+            <persName>Moses</persName><residence>New Orleans</residence>
+         </person>
+         <person xml:id="person049">
+            <persName>N. Miller</persName><residence>New Orleans</residence>
+         </person>
+         <person xml:id="person050">
+            <persName>Buhrman</persName><residence>New Orleans</residence>
+         </person>
+         <person xml:id="person051">
+            <persName>F.Eiokert</persName><residence>New Orleans</residence>
+         </person>
+         <person xml:id="person052">
+            <persName>Hon. L. A. Wilts</persName>
+         </person>
+         <person xml:id="person053">
+            <persName>Gov. Warmoth</persName>
+         </person>
+         <person xml:id="person054">
+            <persName>The German citizens</persName>
+         </person>
+         <person xml:id="person055">
+            <persName>Nicholls and Co.</persName>
+         </person>
+         <person xml:id="person056"> 
+         <persName>Hayes</persName>
+         </person>
       </listPerson>
       <listPlace>
-         <place xml:id="place001">
-            
+         <place xml:id="place001"> 
+            <placeName>New Orleans</placeName>
          </place>
-         <!-- etc.-->
+         <place xml:id="place002">
+            <placeName>Louisiana</placeName>
+         </place>
+         <place xml:id="place003">
+            <placeName> Fourth District</placeName>
+         </place>
+         <place xml:id="place004"> 
+         <placeName>Southern States</placeName>
+         </place>
+         <place xml:id="place005">
+            <placeName> No. 51 Bienville street</placeName>
+         </place>
+         <place xml:id="place006">
+            <placeName>Bremen</placeName>
+         </place>
+         <place xml:id="place007"> 
+         <placeName>Hamburg</placeName>
+         </place>
+         <place xml:id="place008">
+            <placeName>Texas</placeName>
+         </place>
+         <place xml:id="place009">
+            <placeName>Turner's Hall</placeName>
+         </place>
+         <place xml:id="place010">
+            <placeName>Jefferson</placeName>
+         </place>
       </listPlace>
       <listOrg>
          <org xml:id="org001">
-            
+            <orgName>German Political Reform Club</orgName>          
+         </org>
+         <org xml:id="org002">
+            <orgName> Republican Party</orgName>
+         </org>
+         <org xml:id="org003">
+            <orgName> Democratic Party</orgName>
+         </org>
+         <org xml:id="org004">
+            <orgName> German Society</orgName>
+         </org>
+         <org xml:id="org005">
+            <orgName> German Republican Club</orgName>
+         </org>
+         <org xml:id="org006">
+            <orgName>Central Executive Committee</orgName>
+         </org>
+         <org xml:id="org007">
+            <orgName>Taxpayer's Association</orgName>
          </org>
          <!-- etc.-->
       </listOrg>
