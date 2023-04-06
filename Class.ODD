@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> <!-- default teinamespace -->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information </p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <schemaSpec ident="GermanReformClubODD" start="TEI"><!-- whatever we want to name our Schema -->
+        <moduleRef key="header" exclude="editionStmt extent seriesStmt xenoData refsDecl tagsDecl application interaction domain preparedness derivation channel scriptStmt recordingStmt textDesc textClass variantDecl unitDecl metDecl geoDecl factuality fsdDecl calendarDesc transcriptionDesc listPrefixDef correspDesc handNotes listTranspose"/>
+        <moduleRef key="core" exclude=" ab analytic binaryObject del email measure measureGRp media meeting postBox postCode unit catchwrods castItem castgroup castList etym floruit foliation incident incipit xr phr iNode iType interp hom exemplum damageSpandataFacet docImprint castEvent epigraph gb geogName geogFeat gi gram gramGrpfvLib flunder g handShift height heraldry hi cl climate"/> <!-- exclusions depend on how much you want to limit yourself -->
+        <moduleRef key="msdescription" exclude="colophon custodialHist"/> 
+        <moduleRef key="tei" exclude="graphic facsimile alternate"/>
+        <moduleRef key="textstructure" exclude="div1 div2 div3 div4 div5 div6 div7 byline argument salute closer opener signed trailer postscript floatingText"/>
+        <moduleRef key="namesdates"/>
+      </schemaSpec>
+      <elementSpec ident="namesdates" module="leader" mode="change">
+        <attList>
+          <attDef ident="type" mode="change" usage="req">
+            <datatype>
+              <dataRef key="data.enumerated"/>
+            </datatype>
+            <valList type="closed" mode="replace">
+              <valItem ident="leader">
+                <gloss>position</gloss>
+                <desc>Indicates they held a leadership poistion within the German Reform Club</desc>
+              </valItem>
+            </valList>
+          </attDef>
+        </attList>
+      </elementSpec>
+      <schemaSpec ident="GermanReformClubODD" start="TEI">
+      <elementSpec ident="namesdates" module="nationality" mode="change">
+        <attList>
+          <attDef ident="type" mode="change" usage="req">
+            <datatype>
+              <dataRef key="data.enumerated"/>
+            </datatype>
+            <valList type="closed" mode="replace">
+              <valItem ident="nationality">
+                <gloss>Nationality</gloss>
+                <desc>Indicates whether they are native-born Germans or native-born U.S. citizens</desc>
+              </valItem>
+            </valList>
+          </attDef>
+        </attList>
+      </elementSpec>
+      </schemaSpec>
+      <schemaSpec ident="GermanReformClubODD" start="TEI">
+        <elementSpec ident="namesdates" module="political-party" mode="change">
+          <attList>
+            <attDef ident="type" mode="change" usage="req">
+              <datatype>
+                <dataRef key="data.enumerated"/>
+              </datatype>
+              <valList type="closed" mode="replace">
+                <valItem ident="political-party">
+                  <gloss>political party</gloss>
+                  <desc>Used to refer to either the Republican or Democrat party</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+      </schemaSpec>
+      <schemaSpec ident="GermanReformClubODD" start="TEI">
+        <elementSpec ident="namesdates" module="organization" mode="change">
+          <attList>
+            <attDef ident="type" mode="change" usage="req">
+              <datatype>
+                <dataRef key="data.enumerated"/>
+              </datatype>
+              <valList type="closed" mode="replace">
+                <valItem ident="organization">
+                  <gloss>organization</gloss>
+                  <desc>Used to refer to the German Political Reform CLub since they acted as a political club rather an official political party like those listed above.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+      </schemaSpec>
+      <schemaSpec ident="GermanReformClubODD" start="TEI">
+        <elementSpec ident="namesdates" module="country" mode="change">
+          <attList>
+            <attDef ident="type" mode="change" usage="req">
+              <datatype>
+                <dataRef key="data.enumerated"/>
+              </datatype>
+              <valList type="closed" mode="replace">
+                <valItem ident="country">
+                  <gloss>country</gloss>
+                  <desc>Used to refer to, in this case, only Germany or the larger United States.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>

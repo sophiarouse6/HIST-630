@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="out/Class.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>German Politics in Reconstruction New Orleans</title> <author> S.L. Brown and Co.</author>
+            <respStmt> <resp> Editor </resp>  <name> Sophia Rouse </name></respStmt>
+         </titleStmt>
+         <publicationStmt>
+             <p>  Created for Digital Humanities HIST 630. This digital project examines the German Political Reform movement and German political activity in New Orleans during the 1870s. While most of the articles focus directly on the German Political Reform movement, articles devoted to the German Republican Club are also included. Since the project specifically centers on German-New Orleanians’ activeness in Reconstruction politics, ads and other components of the newspapers are not included. As more newspapers are added, editorials and news will be prioritized over advertisements. </p>
+                 <p> This project currently incorporates articles from the two most prominent newspapers in Reconstruction New Orleans, the Daily-Picayune and the New Orleans Republican. German-language newspapers will be added as the project continues to grow. </p>
+         </publicationStmt>
+         <sourceDesc>
+             <p> S.L. Brown and Co. "Editor Republican:," New Orleans Republican, 20 July 1871, p. 5, https://www.newspapers.com/clip/114398450/editor-republican/</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+          
+            <head> Editor Republican:</head>
+          <p> As a subscriber and constant reader of your valuable paper from the first number, I ask you to correct the statement in yesterday's issue announcing the reorganization of the <placeName ref="place003"> Fourth District</placeName> <name ref="org005">Central German Republican Club</name> and my impeachment as its president, which never took place. The secretary having called a special meeting, without my consent and knowledge, to take place <date>last Sunday</date>, I did not deem it proper to attend; and to impeach any man without giving him a clique to defend himself was never heard of before. All the other officers of the <placeName ref="org005"> club </placeName> were there, and a committee was appointed to investigate the purported charges against me, after which the club adjourned regularly to some other day 
+              <persName xml:id="person024">  F. SPRANLEY </persName> </p>
+      </body>
+  </text>
+</TEI>
