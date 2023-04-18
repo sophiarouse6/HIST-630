@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>My Awesome Lincoln Site!</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Modified from XQuery For Humanists</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div>
+            <p>
+               <persName ref="https://en.wikipedia.org/wiki/Abraham_Lincoln">Lincoln</persName> 
+               is dead! The body of the victim of a mad assassin has disappeared
+               from the surface of the earth, but his spirit is immortal. This spirit
+               soars above the tomb where rest the mortal remains of one who was—</p>
+            <!-- Note: Citation needed -->
+            <quote>
+               <lg>
+                  <l>—“a man, a ruler, and a sage;</l>
+                  <l>A truly worthy model of the age.”</l>
+               </lg>
+            </quote>
+            <p>[Imagine an additional paragraph here. I'm too lazy to write one of my own.]</p>            
+         </div>
+      </body>
+  </text>
+</TEI>
