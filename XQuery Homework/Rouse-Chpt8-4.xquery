@@ -13,3 +13,5 @@ for$item in $indvidual
 let $token := tokenize($item) 
 
 }
+
+<!--I met with Dr. Liebe this morning on 4/18 for about forty minutes to discuss this question, but we could not figure out to use typeswitch-->
