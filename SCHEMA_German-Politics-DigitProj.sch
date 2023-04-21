@@ -15,6 +15,28 @@
             </sch:assert>
         </sch:rule>
     </sch:pattern>
+    <sch:pattern>
+        <sch:rule context="//tei:placeName">
+            <sch:let name="standoff" value="doc('https://github.com/sophiarouse6/HIST-630/blob/main/STANDOFF-German-Politics-DigProj.xml')"/>
+            <sch:let name="placeIDs" value="$standoff//place/@xml:id"/>
+            <sch:let name="error" value="."/>
+            <sch:assert test="@ref = $placeIDs">
+                <sch:value-of select="$error"/> will bring doom. Seek shelter or don't!
+                <sch:value-of select="placeIDs"/>
+            </sch:assert>
+        </sch:rule>
+    </sch:pattern>
+    <sch:pattern>
+        <sch:rule context="//tei:orgName">
+            <sch:let name="standoff" value="doc('https://github.com/sophiarouse6/HIST-630/blob/main/STANDOFF-German-Politics-DigProj.xml')"/>
+            <sch:let name="orgIDs" value="$standoff//org/@xml:id"/>
+            <sch:let name="error" value="."/>
+            <sch:assert test="@ref = $orgIDs">
+                <sch:value-of select="$error"/> will bring doom. Seek shelter or don't!
+                <sch:value-of select="orgIDs"/>
+            </sch:assert>
+        </sch:rule>
+    </sch:pattern>
 </sch:schema>
 <!--  <sch:assert test=". = '#ebrooks'"></sch:assert>-->
 <!-- . means where we are -->
