@@ -27,3 +27,4 @@ declare function local:transform($originals as node()*) {
 
             default return $original
 };
+
