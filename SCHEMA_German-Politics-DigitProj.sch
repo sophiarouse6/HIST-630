@@ -3,10 +3,10 @@
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process">
     <!-- allows for you to copy and paste your Schema into the ODD file -->
     <sch:ns uri="http://www.tei-c.org/ns/1.0" prefix="tei"/>
-    <sch:pattern>
-
-        <sch:rule context="//tei:persName">
-            <sch:let name="standoff" value="doc('https://github.com/sophiarouse6/HIST-630/blob/main/STANDOFF-German-Politics-DigProj.xml')"/>
+    <constraintSpec ident="ref-on-persName" scheme="schematron">
+       <constraint>
+       <sch:rule context="//tei:persName">
+            <sch:let name="standoff" value="doc('https://raw.githubusercontent.com/sophiarouse6/HIST-630/main/STANDOFF-German-Politics-DigProj.xml')"/>
             <sch:let name="personIDs" value="$standoff//person/@xml:id"/>
             <sch:let name="error" value="."/>
             <sch:assert test="@ref = $personIDs">
@@ -14,7 +14,12 @@
                     <sch:value-of select="personIDs"/>
             </sch:assert>
         </sch:rule>
-    </sch:pattern>
+       </constraint>   
+    </constraintSpec>
+        
+    
+    
+    
     <sch:pattern>
         <sch:rule context="//tei:placeName">
             <sch:let name="standoff" value="doc('https://github.com/sophiarouse6/HIST-630/blob/main/STANDOFF-German-Politics-DigProj.xml')"/>
